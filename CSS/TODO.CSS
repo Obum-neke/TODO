@@ -55,3 +55,40 @@ body{
     color: #fff;
     cursor: pointer;
 }
+
+.tasks {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.item {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #111;
+    letter-spacing: 1px;
+
+}
+
+.item.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-btn1 {
+
+    color: ;
+    
+    
+}
