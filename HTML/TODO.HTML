@@ -11,21 +11,36 @@
     <h1 class="title"> To Do List</h1>
     
     <div class="todo-list">
+        <form action="">
         <div class="listhead">
+            
             <input type="text" class="entered-list">
-            <button class="add-list">Add</button>
+            <button class="add-list" type="submit">Add</button>
+        </div>
+        </form>
+        <div class="select">
+            <select name="todos" id="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+
         </div>
 
         <div class="tasks">
+            <ul class="thelists"></ul>
 
         </div>
+    
 
     </div>
 
 
 
 
-    <script src="./app.js"></script>
+
+
+    <script src="./script.js"></script>
     
 </body>
 </html>
